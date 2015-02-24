@@ -30,7 +30,27 @@ namespace Geeks
 
         public override Android.Support.V4.App.Fragment GetItem(int position)
         {
-            return new ArrayFragment();
+            if (position == 0)
+            {
+                return new ArrayFragment();
+            }
+            if (position ==1)
+            {
+                return new StringFragment();
+            }
+            if (position == 2)
+            {
+                return new LinkedListFragment();
+            }
+            if (position == 3)
+            {
+                return new TreeFragment();
+            }
+            else
+            {
+                return new ArrayFragment();
+            }
+            
         }
 
         public override int Count

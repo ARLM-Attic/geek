@@ -87,10 +87,16 @@
     <Compile Include="BaseActivity.cs" />
     <Compile Include="CustomTabAdapter.cs" />
     <Compile Include="Fragment\ArrayFragment.cs" />
+    <Compile Include="Fragment\TreeFragment.cs" />
+    <Compile Include="Fragment\LinkedListFragment.cs" />
+    <Compile Include="Fragment\StringFragment.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Model\ArticleModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="ViewModel\LinkedListArticle.cs" />
+    <Compile Include="ViewModel\TreeArticle.cs" />
+    <Compile Include="ViewModel\StringArticle.cs" />
     <Compile Include="ViewModel\ArrayArticle.cs" />
   </ItemGroup>
   <ItemGroup>

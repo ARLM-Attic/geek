@@ -1,27 +1,24 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.CompilerServices;
 using System.Text;
-using System.Threading.Tasks;
-using Android.Support.V4.App;
+
 using Android.App;
 using Android.Content;
 using Android.OS;
 using Android.Runtime;
-using Android.Util;
 using Android.Views;
-
 using Android.Widget;
+using System.Threading.Tasks;
 
 namespace Geeks
 {
-    public class ArrayFragment : Android.Support.V4.App.ListFragment
+    public class LinkedListFragment: Android.Support.V4.App.ListFragment
     {
-        private List<ArticleModel> mItem;
+         private List<ArticleModel> mItem;
         private ListView mListView;
 
-        public ArrayFragment()
+        public LinkedListFragment()
         {
 
         }
@@ -29,7 +26,7 @@ namespace Geeks
         public async override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-            var obj = new ArrayArticle();
+            var obj = new LinkedListArticle();
             Task<List<ArticleModel>> lItem = obj.DownloadAsyncPage();
 
             mItem = await lItem;
