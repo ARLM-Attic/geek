@@ -98,6 +98,7 @@
     <Compile Include="ViewModel\TreeArticle.cs" />
     <Compile Include="ViewModel\StringArticle.cs" />
     <Compile Include="ViewModel\ArrayArticle.cs" />
+    <Compile Include="WebViewActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -107,6 +108,9 @@
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\CustomList.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\Webview.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

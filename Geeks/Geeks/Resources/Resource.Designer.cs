@@ -2350,6 +2350,9 @@ namespace Geeks
 			// aapt resource value: 0x7f080012
 			public const int useLogo = 2131230738;
 			
+			// aapt resource value: 0x7f080046
+			public const int webView = 2131230790;
+			
 			// aapt resource value: 0x7f08001a
 			public const int withText = 2131230746;
 			
@@ -2468,6 +2471,9 @@ namespace Geeks
 			
 			// aapt resource value: 0x7f03001b
 			public const int tab = 2130903067;
+			
+			// aapt resource value: 0x7f03001c
+			public const int Webview = 2130903068;
 			
 			static Layout()
 			{

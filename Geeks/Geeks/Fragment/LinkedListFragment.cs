@@ -41,9 +41,14 @@ namespace Geeks
         {
             View view = inflater.Inflate(Resource.Layout.Array_fragment, container, false);
            // mListView = view.FindViewById<ListView>(Resource.Id.list);
-           
-           
             return view;
+        }
+
+        public override void OnListItemClick(ListView l, View v, int position, long id)
+        {
+            var webViewActivity = new Intent(Activity, typeof(WebViewActivity));
+            webViewActivity.PutExtra("url", mItem[position].Url);
+            StartActivity(webViewActivity);
         }
     }
 }
