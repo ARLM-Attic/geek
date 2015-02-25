@@ -14,6 +14,7 @@ namespace Geeks
 {
     public class CustomListAdaptor : BaseAdapter<ArticleModel>
     {
+        //http://www.jayrambhia.com/blog/swipe-listview/
         private List<ArticleModel> artilceList; 
         private Context mContext;
 
