@@ -18,11 +18,16 @@ namespace Geeks
 {
     public class ArrayArticle
     {
+        private string mUrl = string.Empty;
+        public ArrayArticle(string url)
+        {
+            this.mUrl = url;
+        }
         public async Task<List<ArticleModel>> DownloadAsyncPage()
         {
             var articleList = new ArticleModel();
             var httpClient = new HttpClient();
-            var doc = httpClient.GetStringAsync("http://www.geeksforgeeks.org/category/c-arrays/");
+            var doc = httpClient.GetStringAsync(mUrl);
 
             HtmlDocument htmlD = new HtmlDocument {OptionFixNestedTags = true};
             htmlD.LoadHtml(await doc);

@@ -60,6 +60,9 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="FortySevenDeg.SwipeListView">
+      <HintPath>..\Components\android-swipelistview-2.0.0\lib\android\FortySevenDeg.SwipeListView.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>..\packages\HtmlAgilityPack.1.4.8\lib\portable-net45+netcore45+wpa81+wp8+MonoAndroid+MonoTouch\HtmlAgilityPack.dll</HintPath>
     </Reference>
@@ -125,6 +128,10 @@
     <Content Include="Properties\AndroidManifest.xml" />
   </ItemGroup>
   <ItemGroup>
+    <XamarinComponentReference Include="android-swipelistview">
+      <Visible>False</Visible>
+      <Version>2.0.0</Version>
+    </XamarinComponentReference>
     <XamarinComponentReference Include="PagerSlidingTabStrip">
       <Visible>False</Visible>
       <Version>1.0.1</Version>

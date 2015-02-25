@@ -1493,6 +1493,42 @@ namespace Geeks
 			// aapt resource value: 0x7f01003a
 			public const int suggestionRowLayout = 2130772026;
 			
+			// aapt resource value: 0x7f0100c2
+			public const int swipeActionLeft = 2130772162;
+			
+			// aapt resource value: 0x7f0100c3
+			public const int swipeActionRight = 2130772163;
+			
+			// aapt resource value: 0x7f0100bb
+			public const int swipeAnimationTime = 2130772155;
+			
+			// aapt resource value: 0x7f0100c0
+			public const int swipeBackView = 2130772160;
+			
+			// aapt resource value: 0x7f0100be
+			public const int swipeCloseAllItemsWhenMoveList = 2130772158;
+			
+			// aapt resource value: 0x7f0100c4
+			public const int swipeDrawableChecked = 2130772164;
+			
+			// aapt resource value: 0x7f0100c5
+			public const int swipeDrawableUnchecked = 2130772165;
+			
+			// aapt resource value: 0x7f0100bf
+			public const int swipeFrontView = 2130772159;
+			
+			// aapt resource value: 0x7f0100c1
+			public const int swipeMode = 2130772161;
+			
+			// aapt resource value: 0x7f0100bc
+			public const int swipeOffsetLeft = 2130772156;
+			
+			// aapt resource value: 0x7f0100bd
+			public const int swipeOffsetRight = 2130772157;
+			
+			// aapt resource value: 0x7f0100ba
+			public const int swipeOpenOnLongPress = 2130772154;
+			
 			// aapt resource value: 0x7f010044
 			public const int switchMinWidth = 2130772036;
 			
@@ -2146,29 +2182,29 @@ namespace Geeks
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f080033
-			public const int action_bar = 2131230771;
+			// aapt resource value: 0x7f080039
+			public const int action_bar = 2131230777;
 			
 			// aapt resource value: 0x7f080000
 			public const int action_bar_activity_content = 2131230720;
 			
-			// aapt resource value: 0x7f080032
-			public const int action_bar_container = 2131230770;
+			// aapt resource value: 0x7f080038
+			public const int action_bar_container = 2131230776;
 			
-			// aapt resource value: 0x7f08002e
-			public const int action_bar_root = 2131230766;
+			// aapt resource value: 0x7f080034
+			public const int action_bar_root = 2131230772;
 			
 			// aapt resource value: 0x7f080001
 			public const int action_bar_spinner = 2131230721;
 			
-			// aapt resource value: 0x7f080021
-			public const int action_bar_subtitle = 2131230753;
+			// aapt resource value: 0x7f080027
+			public const int action_bar_subtitle = 2131230759;
 			
-			// aapt resource value: 0x7f080020
-			public const int action_bar_title = 2131230752;
+			// aapt resource value: 0x7f080026
+			public const int action_bar_title = 2131230758;
 			
-			// aapt resource value: 0x7f080034
-			public const int action_context_bar = 2131230772;
+			// aapt resource value: 0x7f08003a
+			public const int action_context_bar = 2131230778;
 			
 			// aapt resource value: 0x7f080002
 			public const int action_menu_divider = 2131230722;
@@ -2176,17 +2212,17 @@ namespace Geeks
 			// aapt resource value: 0x7f080003
 			public const int action_menu_presenter = 2131230723;
 			
-			// aapt resource value: 0x7f080030
-			public const int action_mode_bar = 2131230768;
+			// aapt resource value: 0x7f080036
+			public const int action_mode_bar = 2131230774;
 			
-			// aapt resource value: 0x7f08002f
-			public const int action_mode_bar_stub = 2131230767;
+			// aapt resource value: 0x7f080035
+			public const int action_mode_bar_stub = 2131230773;
 			
-			// aapt resource value: 0x7f080022
-			public const int action_mode_close_button = 2131230754;
+			// aapt resource value: 0x7f080028
+			public const int action_mode_close_button = 2131230760;
 			
-			// aapt resource value: 0x7f080023
-			public const int activity_chooser_view_content = 2131230755;
+			// aapt resource value: 0x7f080029
+			public const int activity_chooser_view_content = 2131230761;
 			
 			// aapt resource value: 0x7f080016
 			public const int always = 2131230742;
@@ -2197,17 +2233,23 @@ namespace Geeks
 			// aapt resource value: 0x7f08001e
 			public const int bold = 2131230750;
 			
-			// aapt resource value: 0x7f08002b
-			public const int checkbox = 2131230763;
+			// aapt resource value: 0x7f080020
+			public const int both = 2131230752;
+			
+			// aapt resource value: 0x7f080031
+			public const int checkbox = 2131230769;
+			
+			// aapt resource value: 0x7f080023
+			public const int choice = 2131230755;
 			
 			// aapt resource value: 0x7f080017
 			public const int collapseActionView = 2131230743;
 			
-			// aapt resource value: 0x7f080031
-			public const int decor_content_parent = 2131230769;
+			// aapt resource value: 0x7f080037
+			public const int decor_content_parent = 2131230775;
 			
-			// aapt resource value: 0x7f080026
-			public const int default_activity_button = 2131230758;
+			// aapt resource value: 0x7f08002c
+			public const int default_activity_button = 2131230764;
 			
 			// aapt resource value: 0x7f08001b
 			public const int dialog = 2131230747;
@@ -2215,20 +2257,23 @@ namespace Geeks
 			// aapt resource value: 0x7f08000c
 			public const int disableHome = 2131230732;
 			
+			// aapt resource value: 0x7f080024
+			public const int dismiss = 2131230756;
+			
 			// aapt resource value: 0x7f08001c
 			public const int dropdown = 2131230748;
 			
-			// aapt resource value: 0x7f080035
-			public const int edit_query = 2131230773;
+			// aapt resource value: 0x7f08003b
+			public const int edit_query = 2131230779;
 			
 			// aapt resource value: 0x7f080014
 			public const int end = 2131230740;
 			
-			// aapt resource value: 0x7f080024
-			public const int expand_activities_button = 2131230756;
-			
 			// aapt resource value: 0x7f08002a
-			public const int expanded_menu = 2131230762;
+			public const int expand_activities_button = 2131230762;
+			
+			// aapt resource value: 0x7f080030
+			public const int expanded_menu = 2131230768;
 			
 			// aapt resource value: 0x7f080004
 			public const int home = 2131230724;
@@ -2236,23 +2281,26 @@ namespace Geeks
 			// aapt resource value: 0x7f08000d
 			public const int homeAsUp = 2131230733;
 			
-			// aapt resource value: 0x7f080028
-			public const int icon = 2131230760;
+			// aapt resource value: 0x7f08002e
+			public const int icon = 2131230766;
 			
 			// aapt resource value: 0x7f080018
 			public const int ifRoom = 2131230744;
 			
-			// aapt resource value: 0x7f080025
-			public const int image = 2131230757;
+			// aapt resource value: 0x7f08002b
+			public const int image = 2131230763;
 			
 			// aapt resource value: 0x7f08001f
 			public const int italic = 2131230751;
 			
+			// aapt resource value: 0x7f080021
+			public const int left = 2131230753;
+			
 			// aapt resource value: 0x7f080009
 			public const int listMode = 2131230729;
 			
-			// aapt resource value: 0x7f080027
-			public const int list_item = 2131230759;
+			// aapt resource value: 0x7f08002d
+			public const int list_item = 2131230765;
 			
 			// aapt resource value: 0x7f080015
 			public const int middle = 2131230741;
@@ -2266,8 +2314,8 @@ namespace Geeks
 			// aapt resource value: 0x7f08000a
 			public const int normal = 2131230730;
 			
-			// aapt resource value: 0x7f080044
-			public const int pager = 2131230788;
+			// aapt resource value: 0x7f08004a
+			public const int pager = 2131230794;
 			
 			// aapt resource value: 0x7f080005
 			public const int progress_circular = 2131230725;
@@ -2275,41 +2323,47 @@ namespace Geeks
 			// aapt resource value: 0x7f080006
 			public const int progress_horizontal = 2131230726;
 			
-			// aapt resource value: 0x7f08002d
-			public const int radio = 2131230765;
+			// aapt resource value: 0x7f080033
+			public const int radio = 2131230771;
 			
-			// aapt resource value: 0x7f080037
-			public const int search_badge = 2131230775;
+			// aapt resource value: 0x7f080025
+			public const int reveal = 2131230757;
 			
-			// aapt resource value: 0x7f080036
-			public const int search_bar = 2131230774;
-			
-			// aapt resource value: 0x7f080038
-			public const int search_button = 2131230776;
+			// aapt resource value: 0x7f080022
+			public const int right = 2131230754;
 			
 			// aapt resource value: 0x7f08003d
-			public const int search_close_btn = 2131230781;
-			
-			// aapt resource value: 0x7f080039
-			public const int search_edit_frame = 2131230777;
-			
-			// aapt resource value: 0x7f08003f
-			public const int search_go_btn = 2131230783;
-			
-			// aapt resource value: 0x7f08003a
-			public const int search_mag_icon = 2131230778;
-			
-			// aapt resource value: 0x7f08003b
-			public const int search_plate = 2131230779;
+			public const int search_badge = 2131230781;
 			
 			// aapt resource value: 0x7f08003c
-			public const int search_src_text = 2131230780;
+			public const int search_bar = 2131230780;
+			
+			// aapt resource value: 0x7f08003e
+			public const int search_button = 2131230782;
+			
+			// aapt resource value: 0x7f080043
+			public const int search_close_btn = 2131230787;
+			
+			// aapt resource value: 0x7f08003f
+			public const int search_edit_frame = 2131230783;
+			
+			// aapt resource value: 0x7f080045
+			public const int search_go_btn = 2131230789;
 			
 			// aapt resource value: 0x7f080040
-			public const int search_voice_btn = 2131230784;
+			public const int search_mag_icon = 2131230784;
 			
-			// aapt resource value: 0x7f08002c
-			public const int shortcut = 2131230764;
+			// aapt resource value: 0x7f080041
+			public const int search_plate = 2131230785;
+			
+			// aapt resource value: 0x7f080042
+			public const int search_src_text = 2131230786;
+			
+			// aapt resource value: 0x7f080046
+			public const int search_voice_btn = 2131230790;
+			
+			// aapt resource value: 0x7f080032
+			public const int shortcut = 2131230770;
 			
 			// aapt resource value: 0x7f08000f
 			public const int showCustom = 2131230735;
@@ -2323,26 +2377,26 @@ namespace Geeks
 			// aapt resource value: 0x7f080007
 			public const int split_action_bar = 2131230727;
 			
-			// aapt resource value: 0x7f08003e
-			public const int submit_area = 2131230782;
+			// aapt resource value: 0x7f080044
+			public const int submit_area = 2131230788;
 			
 			// aapt resource value: 0x7f08000b
 			public const int tabMode = 2131230731;
 			
-			// aapt resource value: 0x7f080045
-			public const int tab_title = 2131230789;
+			// aapt resource value: 0x7f08004b
+			public const int tab_title = 2131230795;
 			
-			// aapt resource value: 0x7f080043
-			public const int tabs = 2131230787;
+			// aapt resource value: 0x7f080049
+			public const int tabs = 2131230793;
 			
-			// aapt resource value: 0x7f080042
-			public const int textArticleDesc = 2131230786;
+			// aapt resource value: 0x7f080048
+			public const int textArticleDesc = 2131230792;
 			
-			// aapt resource value: 0x7f080041
-			public const int textLatestArticle = 2131230785;
+			// aapt resource value: 0x7f080047
+			public const int textLatestArticle = 2131230791;
 			
-			// aapt resource value: 0x7f080029
-			public const int title = 2131230761;
+			// aapt resource value: 0x7f08002f
+			public const int title = 2131230767;
 			
 			// aapt resource value: 0x7f080008
 			public const int up = 2131230728;
@@ -2350,8 +2404,8 @@ namespace Geeks
 			// aapt resource value: 0x7f080012
 			public const int useLogo = 2131230738;
 			
-			// aapt resource value: 0x7f080046
-			public const int webView = 2131230790;
+			// aapt resource value: 0x7f08004c
+			public const int webView = 2131230796;
 			
 			// aapt resource value: 0x7f08001a
 			public const int withText = 2131230746;
@@ -3862,6 +3916,56 @@ namespace Geeks
 			
 			// aapt resource value: 8
 			public const int Spinner_spinnerMode = 8;
+			
+			public static int[] SwipeListView = new int[] {
+					2130772154,
+					2130772155,
+					2130772156,
+					2130772157,
+					2130772158,
+					2130772159,
+					2130772160,
+					2130772161,
+					2130772162,
+					2130772163,
+					2130772164,
+					2130772165};
+			
+			// aapt resource value: 8
+			public const int SwipeListView_swipeActionLeft = 8;
+			
+			// aapt resource value: 9
+			public const int SwipeListView_swipeActionRight = 9;
+			
+			// aapt resource value: 1
+			public const int SwipeListView_swipeAnimationTime = 1;
+			
+			// aapt resource value: 6
+			public const int SwipeListView_swipeBackView = 6;
+			
+			// aapt resource value: 4
+			public const int SwipeListView_swipeCloseAllItemsWhenMoveList = 4;
+			
+			// aapt resource value: 10
+			public const int SwipeListView_swipeDrawableChecked = 10;
+			
+			// aapt resource value: 11
+			public const int SwipeListView_swipeDrawableUnchecked = 11;
+			
+			// aapt resource value: 5
+			public const int SwipeListView_swipeFrontView = 5;
+			
+			// aapt resource value: 7
+			public const int SwipeListView_swipeMode = 7;
+			
+			// aapt resource value: 2
+			public const int SwipeListView_swipeOffsetLeft = 2;
+			
+			// aapt resource value: 3
+			public const int SwipeListView_swipeOffsetRight = 3;
+			
+			// aapt resource value: 0
+			public const int SwipeListView_swipeOpenOnLongPress = 0;
 			
 			public static int[] SwitchCompat = new int[] {
 					16843044,
